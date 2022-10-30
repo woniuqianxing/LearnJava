@@ -1,0 +1,23 @@
+package com.imooc.method;
+
+public class MaxDemo {
+	// 有参无返回方法
+	// 求最大值的方法
+	public void max(float a, float b) {
+		float max;
+		if (a > b) {
+			max = a;
+		} else {
+			max = b;
+		}
+		System.out.print("a和b的最大值为" + max);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MaxDemo maxDemo = new MaxDemo();
+		maxDemo.max(5.01, 5.02);
+
+	}
+
+}

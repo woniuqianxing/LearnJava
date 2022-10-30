@@ -1,0 +1,19 @@
+
+Ysquid:S1481"&Remove this unused "m" local variable.(ş·Ó8—®ÙÆÀ0H9RMINORZ
+CODE_SMELL
+^squid:S1481"&Remove this unused "N" local variable.(ÇŞ›üÿÿÿÿ8—®ÙÆÀ0H:RMINORZ
+CODE_SMELL
+_squid:S1481
+"'Remove this unused "PI" local variable.(ä•¬¸ÿÿÿÿÿ8—®ÙÆÀ0H;RMINORZ
+CODE_SMELL
+asquid:S1481".Remove this unused "MIN_VALUE" local variable.(æ¬ùŸ8—®ÙÆÀ0H<RMINORZ
+CODE_SMELL
+nsquid:S1854
+"6Remove this useless assignment to local variable "PI".(ä•¬¸ÿÿÿÿÿ8—®ÙÆÀ0H=RMAJORZ
+CODE_SMELL
+msquid:S1854	"5Remove this useless assignment to local variable "m".(·µ‡²úÿÿÿÿ8—®ÙÆÀ0H>RMAJORZ
+CODE_SMELL
+msquid:S1854"5Remove this useless assignment to local variable "N".(ÇŞ›üÿÿÿÿ8—®ÙÆÀ0H?RMAJORZ
+CODE_SMELL
+hsquid:S1854"5Remove this useless assignment to local variable "m".(ş·Ó8—®ÙÆÀ0H@RMAJORZ
+CODE_SMELL

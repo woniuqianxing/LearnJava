@@ -1,0 +1,15 @@
+package com.imooc;
+
+public class CharDemo {
+
+	public static void main(String[] args) {
+		// ×Ö·û¶¨Òå
+		char c = 'a';
+		System.out.println(c);
+		
+		char f = 65;
+		System.out.println(f);
+
+	}
+
+}

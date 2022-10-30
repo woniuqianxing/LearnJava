@@ -1,0 +1,19 @@
+package com.imooc.operator;
+
+public class RelateDemo {
+
+	public static void main(String[] args) {
+		//关系运算符
+		int a=3,b=5;
+		System.out.println(a<b);
+		System.out.println(a>b);
+		int scont = 75;
+		if (scont > 60){
+			System.out.println("及格");
+		}else if (scont < 60){
+			System.out.println("不及格");
+		}
+
+	}
+
+}

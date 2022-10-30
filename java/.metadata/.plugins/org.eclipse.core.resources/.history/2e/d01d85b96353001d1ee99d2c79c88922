@@ -1,0 +1,16 @@
+package com.imooc;
+
+public class CharDemo {
+
+	public static void main(String[] args) {
+		// ×Ö·û¶¨Òå
+		char c = 'a';
+		System.out.println(c);
+		char f = 65;
+		char ch1=(char)65536;
+		System.out.println(f);
+		System.out.println(ch1);
+
+	}
+
+}

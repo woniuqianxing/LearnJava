@@ -1,0 +1,17 @@
+package com.imooc;
+
+public class FloatDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//定义单精度浮点型变量,存放1234.328
+		float f=1234.328f;
+		System.out.println(f);
+		double d=5623.465;
+		System.out.println(d);
+	}
+
+}

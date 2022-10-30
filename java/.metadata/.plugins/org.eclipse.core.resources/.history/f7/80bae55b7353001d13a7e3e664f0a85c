@@ -1,0 +1,20 @@
+package com.imooc.operator;
+
+public class ConditionDemo {
+
+	public static void main(String[] args) {
+		// if语句
+		double scont1 = 65,scont2=30;
+		double scont = scont1+scont2;
+		System.out.println("原价格："+scont);
+		if (scont >=100){
+			scont-=20;
+			System.out.println("现在价格："+scont);
+		}else if (scont < 100){
+			System.out.println("原价格："+scont);
+		}
+
+
+	}
+
+}

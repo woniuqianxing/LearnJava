@@ -1,0 +1,13 @@
+package com.imooc.operator;
+
+public class LogicDemo {
+
+	public static void main(String[] args) {
+		// 逻辑非运算符
+		System.out.println("请输入一个整数：");
+		Scanner sc=new Scanner(System.in);
+		
+
+	}
+
+}

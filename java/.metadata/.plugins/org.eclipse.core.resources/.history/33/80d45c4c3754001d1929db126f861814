@@ -1,0 +1,23 @@
+package com.imooc.flow;
+
+import java.util.Scanner;
+public class GuessGameDemo {
+
+	public static void main(String[] args) {
+		// 猜字谜游戏
+		int s =9;
+		int guess=0;
+		do {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("请输入1-10的字谜");
+			guess = sc.nextInt();
+			if (guess <s) {
+				System.out.println("猜小了，往大猜");
+			}else if(guess > s) {
+				System.out.println("猜大了，往小猜");
+			}
+		}while(guess != s);
+		System.out.println("猜对了"+guess);
+	}
+
+}

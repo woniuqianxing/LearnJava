@@ -1,0 +1,21 @@
+package com.imooc.operator;
+
+public class RelateDemo {
+
+	public static void main(String[] args) {
+		//关系运算符
+		int a=3,b=5;
+		System.out.println(a<b);
+		System.out.println(a>b);
+		int scont1 = 75,scont2=30;
+		scont = scont1+scont2;
+		if (scont >100){
+			scont3=scont-20;
+			System.out.println("原价格："+scont+"现在价格："+scont3);
+		}else if (scont < 100){
+			System.out.println("原价格："+scont);
+		}
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.imooc.flow;
+
+public class IntCompare {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=6,y=10;
+		if (x!=y) {
+			if(x>y) {
+				System.out.println(x+"大于"+y);
+			}else {
+				System.out.println(x+"小于"+y);
+			}
+		}else {
+			System.out.println("相等的");
+		}
+
+	}
+
+}

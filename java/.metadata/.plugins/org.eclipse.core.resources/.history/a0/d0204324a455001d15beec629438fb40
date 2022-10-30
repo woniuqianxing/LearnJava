@@ -1,0 +1,27 @@
+package com.imooc.method;
+
+import java.util.Scanner;
+
+public class SliceSearch {
+	
+	public boolean arraySearch(int n,int[] sn) {
+		boolean flag=false;
+		for(int i =0;i<sn.length;i++) {
+			if(n==sn[i]) {
+				System.out.print("找到了");
+				flag=true;
+				break;
+			}else {
+				System.out.print("没找到");
+			}
+		}
+		return flag;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner();
+		int n = sc.nextInt();
+		for
+	}
+
+}

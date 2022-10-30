@@ -1,0 +1,12 @@
+package com.imooc;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		// ×Ö·û´®±äÁ¿
+		String s="";
+		System.out.println(s);
+
+	}
+
+}

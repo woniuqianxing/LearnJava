@@ -1,0 +1,13 @@
+package com.imooc;
+
+public class VarDemo {
+
+	public static void main(String[] args) {
+		// 定义两个整形变量x,y
+		int x=0,y=0;
+		System.out.println(x);
+		System.out.println(y);
+
+	}
+
+}

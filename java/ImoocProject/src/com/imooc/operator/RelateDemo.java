@@ -1,0 +1,13 @@
+package com.imooc.operator;
+
+public class RelateDemo {
+
+	public static void main(String[] args) {
+		//¹ØÏµÔËËã·û
+		int a=3,b=5;
+		System.out.println(a<b);
+		System.out.println(a>b);
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.imooc.datamanage;
+
+import java.util.Scanner;
+
+public class DataManage {
+	/*
+	 * 从键盘接收数据存放到数组中，并对数据中的数据进行管理 功能： 1.插入数据 2.显示所有数据 3.在指定位置处插入数据 4.查询被3整除的数据
+	 */
+	public int[] insertDate() {
+		// 数组长度不能动态变化，所以必须指定数组长度
+		int[] s = new int[10];
+		Scanner sc = new Scanner(System.in);
+		// 少接收一个数据，为在指定位置处插入数据做准备
+		for (int i = 0; i < s.length - 1; i++) {
+			System.out.println("请输入第:" + (i + 1) + "个数据：");
+			s[i] = sc.nextInt();
+		}
+		return s;
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DataManage dm = new DataManage();
+		int[] a = dm.insertDate();
+		for(int n:a) {
+			System.out.println(n+" ");
+		}
+	}
+}

@@ -1,0 +1,16 @@
+package com.imooc;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		// ×Ö·û´®±äÁ¿
+		String s="";
+		System.out.println(s);
+		String s2="abc";
+		System.out.println(s2);
+		String s3="\u005d\u005f";
+		System.out.println(s3);
+
+	}
+
+}

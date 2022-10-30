@@ -1,0 +1,22 @@
+package com.imooc.array;
+
+import java.util.Scanner;
+
+public class ArrayDemo01 {
+
+	public static void main(String[] args) {
+		// 求整型数组的累加和
+		int[] intArray = new int[5];
+		int sum = 0;
+		System.out.println("请输入要加的5个数字：");
+		for (int i = 0; i < 5; i++) {
+			Scanner sc = new Scanner(System.in);
+			int s = sc.nextInt();
+			intArray[i] = s;
+			sum = sum + intArray[i];
+		}
+		System.out.println("和为:" + sum);
+
+	}
+
+}

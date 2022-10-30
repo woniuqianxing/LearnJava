@@ -1,0 +1,31 @@
+
+Isquid:S16433"Use a StringBuilder instead.(şÎ¼H×RMINORZ
+CODE_SMELL
+™ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄKHØRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(§¡óûÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(û«««ùÿÿÿÿHÚRMAJORZ
+CODE_SMELL
+e
+squid:S106 "9Replace this use of System.out or System.err by a logger.(‡•»ŠHÛRMAJORZ
+CODE_SMELL
+j
+squid:S106""9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÜRMAJORZ
+CODE_SMELL
+e
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ÊüÉ§HİRMAJORZ
+CODE_SMELL
+j
+squid:S106:"9Replace this use of System.out or System.err by a logger.(Åã¼ÜüÿÿÿÿHŞRMAJORZ
+CODE_SMELL
+e
+squid:S106E"9Replace this use of System.out or System.err by a logger.(Ó“®•HßRMAJORZ
+CODE_SMELL
+j
+squid:S106G"9Replace this use of System.out or System.err by a logger.(Æ”õ¨ÿÿÿÿÿHàRMAJORZ
+CODE_SMELL
+csquid:S1135?"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHáRINFOZ
+CODE_SMELL

@@ -1,0 +1,19 @@
+package com.imooc.array;
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		// สýื้
+		int[] intArray;
+		String stringArray[];
+		intArray = new int[10];
+		stringArray = new String[3];
+		float[] floatArray = new float[2];
+		char[] ch = { 'a', 'b', '3' };
+		System.out.println(ch.length);
+		System.out.println(intArray[1]);
+		System.out.println(stringArray[2]);
+		System.out.println(floatArray[floatArray.length - 1]);
+	}
+
+}
