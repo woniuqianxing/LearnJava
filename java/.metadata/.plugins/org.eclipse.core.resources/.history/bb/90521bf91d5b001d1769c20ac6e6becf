@@ -1,0 +1,19 @@
+package com.imooc.animal;
+
+public class Dog extends Anaimal{
+	private String sex;//性别
+	
+	public Dog() {}
+
+	public String getSex() {
+		return sex;
+	}
+
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+	//睡觉的方法
+	public void sleep() {
+		System.out.println(this.getMouth()+"几个月大的"+this.getName()+"在卧室里睡觉");
+	}
+}

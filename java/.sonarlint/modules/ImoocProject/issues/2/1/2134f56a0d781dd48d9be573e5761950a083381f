@@ -1,9 +1,9 @@
 
-k
-squid:S106"9Replace this use of System.out or System.err by a logger.(‡¤”8πώ›Ζΐ0H.RMAJORZ
+hsquid:S1854
+"5Remove this useless assignment to local variable "c".(‰ΗΚ@8πώ›Ζΐ0HψRMAJORZ
 CODE_SMELL
-hsquid:S1854"5Remove this useless assignment to local variable "x".(“¤8πώ›Ζΐ0H/RMAJORZ
+isquid:S1854"5Remove this useless assignment to local variable "x".(“¤8πώ›Ζΐ0HωRMAJORZ
 CODE_SMELL
-gsquid:S1854
-"5Remove this useless assignment to local variable "c".(‰ΗΚ@8πώ›Ζΐ0H0RMAJORZ
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡¤”8πώ›Ζΐ0HϊRMAJORZ
 CODE_SMELL

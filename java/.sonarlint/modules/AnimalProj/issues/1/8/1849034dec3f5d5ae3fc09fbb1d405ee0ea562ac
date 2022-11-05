@@ -1,0 +1,21 @@
+
+’squid:S1171	"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8‡›øàÃ0H´RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(“„È¸ÿÿÿÿÿ8ğÚÃ0HéRMAJORZ
+CODE_SMELL
+esquid:S1444")Make this "public static st3" field final(µ‰—œøÿÿÿÿ8‡›øàÃ0H®RMINORZVULNERABILITY
+¢"squid:ClassVariableVisibilityCheck"OMake st3 a static final constant or non-public and provide accessors if needed.(µ‰—œøÿÿÿÿ8‡›øàÃ0H³RMINORZVULNERABILITY
+l
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(‚ß×8‡›øàÃ0H°RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹¾‡¥øÿÿÿÿ8‡›øàÃ0H¯RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ùÉ“ã8‡›øàÃ0H±RMAJORZ
+CODE_SMELL
+q
+squid:S106 "9Replace this use of System.out or System.err by a logger.(¢í¤Äşÿÿÿÿ8‡›øàÃ0H²RMAJORZ
+CODE_SMELL

@@ -1,0 +1,11 @@
+package com.imooc.test;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Animal one = new Animal();//1
+		Animal two = new Cat();//2
+	}
+
+}

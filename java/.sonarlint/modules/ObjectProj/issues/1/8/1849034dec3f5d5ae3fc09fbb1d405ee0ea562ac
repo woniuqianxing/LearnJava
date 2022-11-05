@@ -1,21 +1,21 @@
 
-_squid:S1172<"+Remove this unused method parameter "name".(ÄÀõå8ƒÖÄãÁ0HïRMAJORZ
-CODE_SMELL
 q
-squid:S106="9Replace this use of System.out or System.err by a logger.(óŒÔœûÿÿÿÿ8ƒÖÄãÁ0HîRMAJORZ
+squid:S106="9Replace this use of System.out or System.err by a logger.(óŒÔœûÿÿÿÿ8ƒÖÄãÁ0H›RMAJORZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(ß—ğ¯8¿Ç‚âÁ0HäRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(ß—ğ¯8¿Ç‚âÁ0HœRMAJORZ
 CODE_SMELL
 q
-squid:S106J"9Replace this use of System.out or System.err by a logger.(©ÈĞøıÿÿÿÿ8âş“ãÁ0HëRMAJORZ
+squid:S106J"9Replace this use of System.out or System.err by a logger.(©ÈĞøıÿÿÿÿ8âş“ãÁ0HRMAJORZ
 CODE_SMELL
 q
-squid:S106N"9Replace this use of System.out or System.err by a logger.(¡‹¡¥şÿÿÿÿ8¿Ç‚âÁ0HåRMAJORZ
+squid:S106N"9Replace this use of System.out or System.err by a logger.(¡‹¡¥şÿÿÿÿ8¿Ç‚âÁ0HRMAJORZ
 CODE_SMELL
 l
-squid:S106%"9Replace this use of System.out or System.err by a logger.(ì¥¢È8èÒŸâÁ0HêRMAJORZ
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ì¥¢È8èÒŸâÁ0HŸRMAJORZ
 CODE_SMELL
 q
-squid:S106R"9Replace this use of System.out or System.err by a logger.(å€ÕÆÿÿÿÿÿ8¥åÂéÁ0HˆRMAJORZ
+squid:S106R"9Replace this use of System.out or System.err by a logger.(å€ÕÆÿÿÿÿÿ8¥åÂéÁ0H RMAJORZ
+CODE_SMELL
+_squid:S1172<"+Remove this unused method parameter "name".(ÄÀõå8ƒÖÄãÁ0H¡RMAJORZ
 CODE_SMELL

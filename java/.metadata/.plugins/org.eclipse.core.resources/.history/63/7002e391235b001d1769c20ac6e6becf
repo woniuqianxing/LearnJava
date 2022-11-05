@@ -1,0 +1,48 @@
+package com.imooc.animal;
+
+public class Anaimal {
+	// 动物共性：昵称，月份、品种
+	private String name;
+	private int mouth;
+	private String species;
+
+	public Anaimal() {
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getMouth() {
+		return mouth;
+	}
+
+	public void setMouth(int mouth) {
+		this.mouth = mouth;
+	}
+
+	public String getSpecies() {
+		return species;
+	}
+
+	public void setSpecies(String species) {
+		this.species = species;
+	}
+
+	public void eat() {
+		System.out.println(this.getName() + "吃东西");
+	}
+
+	public void eat(String name) {
+		System.out.println(name + "吃东西");
+	}
+
+	public void jump() {
+		System.out.println("跳跃是一种本能");
+		return 2;
+	}
+}

@@ -1,0 +1,30 @@
+package com.imooc.animal;
+
+public class Master {
+	/**
+	 * 喂宠物 喂猫咪：吃完东西后，主人会带着去玩线球 喂狗狗：吃完东西后，主人会带着狗狗去睡觉
+	 */
+	
+	//方案1
+	public void feed(Cat cat) {
+		cat.eat();
+		cat.playball();
+	}
+
+	public void feed(Dog dog) {
+		dog.eat();
+		dog.sleep();
+	}
+	//方案2
+	public void feed(Animal obj) {
+		if(obj instanceof Cat) {
+			Cat temp = new Cat();
+			temp.eat();
+			temp.playball();
+		}else if(obj instanceof Dog){
+			Dog temp=new Dog();
+			temp.eat();
+			temp.sleep();
+		}
+	}
+}

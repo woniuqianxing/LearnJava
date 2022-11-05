@@ -1,0 +1,37 @@
+
+£"squid:ClassVariableVisibilityCheck"PMake temp a static final constant or non-public and provide accessors if needed.(•©¡ôùÿÿÿÿ8ë‰òàÃ0H¥RMINORZVULNERABILITY
+}squid:S1206C"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8×ÊãÃ0HÍRMINORZBUG
+usquid:S1126R"AReplace this if-then-else statement by a single return statement.(¹™Œ„8á‚ØãÃ0H×RMINORZ
+CODE_SMELL
+|squid:HiddenFieldCheckG"8Rename "temp" which hides the field declared at line 12.(¾¦ºûÿÿÿÿ8×ÊãÃ0HĞRMAJORZ
+CODE_SMELL
+`squid:S1068"'Remove this unused "st1" private field.(–ï»Âùÿÿÿÿ8ë‰òàÃ0HŸRMAJORZ
+CODE_SMELL
+Lsquid:S2097C"Add a type test to this method.(ÜÑã8×ÊãÃ0HÎRMINORZBUG
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(©Ğ‰ùûÿÿÿÿ8ÆÒ´ÛÃ0H—RMAJORZ
+CODE_SMELL
+¢"squid:ClassVariableVisibilityCheck"OMake st2 a static final constant or non-public and provide accessors if needed.(”™¨›ùÿÿÿÿ8ë‰òàÃ0H¦RMINORZVULNERABILITY
+esquid:S1444")Make this "public static st2" field final(”™¨›ùÿÿÿÿ8ë‰òàÃ0H RMINORZVULNERABILITY
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(îÛ‹ûûÿÿÿÿ8‰‚øÙÃ0HæRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿†¬ˆ8ë‰òàÃ0H¤RMAJORZ
+CODE_SMELL
+’squid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8ë‰òàÃ0H¨RMAJORZ
+CODE_SMELL
+zsquid:S1126H"AReplace this if-then-else statement by a single return statement.(¦¢Ë­şÿÿÿÿ8×ÊãÃ0HÏRMINORZ
+CODE_SMELL
+q
+squid:S106^"9Replace this use of System.out or System.err by a logger.(´ïòµüÿÿÿÿ8ë‰òàÃ0H¡RMAJORZ
+CODE_SMELL
+q
+squid:S106?"9Replace this use of System.out or System.err by a logger.(òµ¯ˆşÿÿÿÿ8ë‰òàÃ0H£RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹Üßí8Ô²†ÛÃ0H‰RMAJORZ
+CODE_SMELL
+l
+squid:S106;"9Replace this use of System.out or System.err by a logger.(úà¯Ü8ë‰òàÃ0H¢RMAJORZ
+CODE_SMELL

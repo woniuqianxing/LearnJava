@@ -1,0 +1,59 @@
+package com.imooc.model;
+
+public class Student {
+	// 成员属性：学号、姓名、年龄、性别
+	private String studentNo;
+	private String studentName;
+	private int studentAge;
+	private String studentSex;
+
+	// 无参构造
+	public Student() {
+	}
+
+	// 带参构造，实现对全部属性的赋值
+	public Student(String studentNo, String studentName, int studentAge, String studentSex) {
+		this.setStudentNo(studentNo);
+		this.setStudentName(studentName);
+		this.setStudentAge(studentAge);
+		this.setStudentSex(studentSex);
+	}
+
+	public String getStudentNo() {
+		return studentNo;
+	}
+
+	public void setStudentNo(String studentNo) {
+		this.studentNo = studentNo;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+	public int getStudentAge() {
+		return studentAge;
+	}
+
+	public void setStudentAge(int studentAge) {
+		this.studentAge = studentAge;
+	}
+
+	public String getStudentSex() {
+		return studentSex;
+	}
+
+	public void setStudentSex(String studentSex) {
+		this.studentSex = studentSex;
+	}
+
+	public String introduction() {
+		String str = "学生信息如下：\n名称" + this.getStudentName() + "+\n学号" + this.getStude + "\n专业年限" + this.subjectLife;
+		return str;
+	}
+
+}

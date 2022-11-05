@@ -1,0 +1,14 @@
+package com.imooc.test;
+
+import com.imooc.animal.Master;
+
+public class MasterTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Master master = new Master();
+		Cat one = new Cat();
+		Dog two = new Dog();
+	}
+
+}

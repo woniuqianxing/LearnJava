@@ -1,0 +1,25 @@
+package com.imooc.test;
+
+import com.imooc.animal.Cat;
+import com.imooc.animal.Dog;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Cat one = new Cat();
+		one.setName("Ð¡»¨Ã¨");
+		one.setSpecies("ÖÐ»ªÌïÔ°Ã¨");
+		one.eat();
+		one.run();
+		System.out.println("============");
+		Dog two = new Dog();
+		two.setName("Å£Å£");
+		two.setMonth(1);
+		two.sleep();
+		two.eat();
+		System.out.println("============");
+		two.eat("·³·³");
+	}
+
+}

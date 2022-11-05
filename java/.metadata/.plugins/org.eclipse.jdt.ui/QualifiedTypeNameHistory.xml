@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.omg.Messaging.SyncScopeHelper"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.imooc.animal.Dog"/>
 <fullyQualifiedTypeName name="com.imooc.animal.Cat"/>
+<fullyQualifiedTypeName name="com.imooc.animal.Anaimal"/>
+<fullyQualifiedTypeName name="com.imooc.singleton.SingletonOne"/>
 </qualifiedTypeNameHistroy>
