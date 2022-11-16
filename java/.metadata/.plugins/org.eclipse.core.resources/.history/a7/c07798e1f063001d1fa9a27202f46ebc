@@ -1,0 +1,23 @@
+package com.imooc.pt;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//实现随机选择list中的元素
+public class CollectionUtils<E> {
+	private List<E> data = new ArrayList();
+
+	public void add(E element) {
+		data.add(element);
+	}
+
+	public E randomSelect() {
+		int idx = new Random().next
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

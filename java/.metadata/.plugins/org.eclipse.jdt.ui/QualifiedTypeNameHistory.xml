@@ -6,4 +6,10 @@
 <fullyQualifiedTypeName name="com.imooc.animal.Cat"/>
 <fullyQualifiedTypeName name="com.imooc.animal.Anaimal"/>
 <fullyQualifiedTypeName name="com.imooc.singleton.SingletonOne"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

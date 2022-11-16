@@ -1,0 +1,21 @@
+package com.imooc.string;
+
+public class StringDemo1 {
+
+	public static void main(String[] args) {
+		// 定义一个字符串“JAVA编程基础"
+		String str = "JAVA 编程 基础";
+		// 打印输出字符串的长度
+		System.out.println("字符串的长度是：" + str.length());
+
+		// charAt(int index),取出字符程并输出
+		System.out.println("字符：" + str.charAt(6));
+
+		// 取出字串"编程基础"并输出
+		System.out.println("字符：" + str.substring(5));
+
+		// 取出字串"编程基础"并输出
+		System.out.println("字符：" + str.substring(5));
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.imooc.pt;
+
+import java.util.ArrayList;
+
+public class ListSample {
+
+	public void sample1() {
+		ArrayList bookList = new ArrayList();
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

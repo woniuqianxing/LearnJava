@@ -1,0 +1,12 @@
+
+’squid:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Û¿ğñÿÿÿÿÿ8šÉÓ„Æ0HŒRMINORZ
+CODE_SMELL
+csquid:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‰RINFOZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûïóÙûÿÿÿÿ8ÆœÚ„Æ0HRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Î¾É8¼âß„Æ0H’RMAJORZ
+CODE_SMELL

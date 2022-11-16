@@ -1,0 +1,35 @@
+package com.imooc.pt;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+//实现随机选择list中的元素,工具类中增加泛型
+public class CollectionUtils<E> {
+	// 增加list集合
+	private List<E> data = new ArrayList();
+
+	// 向当前list增加元素，类型要和定义的泛型类型保持一致
+	public void add(E element) {
+		data.add(element);
+	}
+
+	// 随机选择List中的数据，方法类型和泛型一致，nextInt生成指定范围内的随机整数
+	public E randomSelect() {
+		int idx = new Random().nextInt(data.size());
+		E ret = data.get(idx);
+		return ret;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CollectionUtils<String> utils = new CollectionUtils();
+		utils.add("张三");
+		utils.add("李四");
+		utils.add("王五");
+		utils.add("赵六");
+		String name = utils.randomSelect();
+		System.out.println(name);
+	}
+
+}

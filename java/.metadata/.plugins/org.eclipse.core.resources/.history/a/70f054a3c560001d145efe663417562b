@@ -1,0 +1,12 @@
+package com.imooc.collection.list;
+
+import java.util.LinkedList;
+
+public class LinkedListSample {
+
+	public static void main(String[] args) {
+		LinkedList<String> bookList = new LinkedList<String>();
+
+	}
+
+}

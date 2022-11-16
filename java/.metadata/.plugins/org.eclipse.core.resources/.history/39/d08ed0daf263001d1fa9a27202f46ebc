@@ -1,0 +1,14 @@
+package com.imooc.pt;
+
+public class PtMethod {
+
+	public <T> List<T> transferToList(T[] array) {
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

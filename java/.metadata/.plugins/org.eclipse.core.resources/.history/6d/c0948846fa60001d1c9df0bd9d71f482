@@ -1,0 +1,16 @@
+package com.imooc.collection.map;
+
+public class LinkedHashMapSample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedHashMap<String,Object> student=new LinkedHashMap<>();
+		student.put("name", "张三");
+		String name = (String) student.put("name", "李四");
+		System.out.println(student);
+		student.put("age", 18);
+		student.put("height", 182);
+		student.put("weight", 60);
+	}
+
+}

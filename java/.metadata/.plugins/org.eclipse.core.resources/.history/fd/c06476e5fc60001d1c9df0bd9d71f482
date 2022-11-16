@@ -1,0 +1,18 @@
+package com.imooc.collection.map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class LoopSample {
+
+	public static void main(String[] args) {
+		Map<String, Object> student = new HashMap<>();
+		student.put("A1", "ÕÅÈı");
+		student.put("C3", 18);
+		student.put("B5", 182);
+		student.put("X1", 60);
+		System.out.println(student);
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.imooc.collection.set;
+
+import java.util.Comparator;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class TreeSetSample {
+	class IntegerComparator implements Comparator<Integer> {
+
+	}
+
+	public static void main(String[] args) {
+		Set<Integer> mobileSet = new TreeSet<Integer>();
+		mobileSet.add(11111);
+		mobileSet.add(22222);
+		mobileSet.add(3333);
+		System.out.println(mobileSet);
+
+	}
+
+}

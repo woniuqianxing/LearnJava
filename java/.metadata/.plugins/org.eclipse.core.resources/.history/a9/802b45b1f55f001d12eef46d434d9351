@@ -1,0 +1,23 @@
+package com.imooc.string;
+
+public class StringDemo2 {
+
+	public static void main(String[] args) {
+		// 定义一个字符串“JAVA编程基础，我喜欢java编程"
+				String str = new String("JAVA 编程 基础");
+				// 查找字符A在第一次出现的位置
+				System.out.println("A在第一次出现的位置" + str.indexOf('A'));
+
+				// charAt(int index),取出字符程并输出
+				System.out.println("字符：" + str.charAt(6));
+
+				// 取出字串"编程基础"并输出
+				System.out.println("字符：" + str.substring(5));
+
+				// 取出字串"编程"并输出
+				System.out.println("字符：" + str.substring(5, 7));
+			}
+
+	}
+
+}

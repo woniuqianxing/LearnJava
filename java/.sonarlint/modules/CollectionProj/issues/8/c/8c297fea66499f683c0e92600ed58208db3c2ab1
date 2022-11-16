@@ -1,0 +1,17 @@
+
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(äüÃâ8‚¦×ƒÆ0H‚RMAJORZ
+CODE_SMELL
+squid:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(³ÿÑ©8ù­’ƒÆ0HıRMINORZ
+CODE_SMELL
+`squid:S1612",Replace this lambda with a method reference.(‡ñ œ8êóƒÆ0H†RMINORZ
+CODE_SMELL
+`squid:S1602",Remove useless curly braces around statement(‡ñ œ8êóƒÆ0H…RMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(äüÃâ8êóƒÆ0H„RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(äüÃâ8ÏŞ„„Æ0H‡RMAJORZ
+CODE_SMELL

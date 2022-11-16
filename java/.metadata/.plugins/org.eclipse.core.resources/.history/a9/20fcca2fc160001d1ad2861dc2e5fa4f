@@ -1,0 +1,24 @@
+package com.imooc.collection.list;
+
+import java.util.ArrayList;
+
+public class ArrayListSample {
+	public static void main(String[] args) {
+		ArrayList<String> str = new ArrayList<String>();
+		// ctrl+shift+回车自动增加结尾分号，有的话自动换行
+		str.add("西游记");
+		str.add("三国演义");
+		System.out.println(str);
+		String bookname = str.get(1);
+		System.out.println(bookname);
+//		System.out.println(str.get(10));
+		str.add(1, "红楼梦");
+		System.out.println(str);
+		boolean result = str.add("水浒传");
+		System.out.println(result);
+		String before=str.set(3, "水浒传后传");
+		System.out.println(str);
+		System.out.println(before);
+	}
+
+}

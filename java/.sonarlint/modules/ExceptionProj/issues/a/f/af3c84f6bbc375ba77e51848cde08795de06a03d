@@ -1,0 +1,26 @@
+
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÒÉ¡²üÿÿÿÿ8¯Ûò±Å0HÑRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(¡Õ±š8–§–±Å0HÒRMAJORZ
+CODE_SMELL
+l
+squid:S1060"9Replace this use of System.out or System.err by a logger.(šýÚ™8¯Ûò±Å0HÓRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHÔRINFOZ
+CODE_SMELL
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8’Ðº²Å0HÕRMINORZVULNERABILITY
+„squid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(ž×²ýÿÿÿÿ8¯Ûò±Å0HÖRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8í•²°Å0H×RMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÏÊüßüÿÿÿÿ8–§–±Å0HØRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(†€éˆ8–§–±Å0HÙRMAJORZ
+CODE_SMELL
+esquid:S1135$"2Complete the task associated to this TODO comment.(ÉÚõÎ8–§–±Å0HÚRINFOZ
+CODE_SMELL
+l
+squid:S106)"9Replace this use of System.out or System.err by a logger.(°Æ—²8Ô‘—°Å0HÛRMAJORZ
+CODE_SMELL

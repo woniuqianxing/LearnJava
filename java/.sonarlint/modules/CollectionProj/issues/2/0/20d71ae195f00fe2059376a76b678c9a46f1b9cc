@@ -1,0 +1,31 @@
+
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(„íí8‡Û¬ŒÆ0H»RMAJORZ
+CODE_SMELL
+bsquid:S1481
+")Remove this unused "name" local variable.(ëè­Ìüÿÿÿÿ8‡Û¬ŒÆ0H¼RMINORZ
+CODE_SMELL
+qsquid:S1854
+"8Remove this useless assignment to local variable "name".(ëè­Ìüÿÿÿÿ8‡Û¬ŒÆ0H½RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(„íí8•³¶ŒÆ0HÄRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÖòÔÉùÿÿÿÿ8ËÇÈŒÆ0HÌRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8ş£ÎŒÆ0HÕRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(†™ñ‹8¾¿ŒÆ0HÈRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œ­ÿ…8§ÔÓŒÆ0HÙRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ¶·ä8ËÇÈŒÆ0HÍRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(„íí8ÈÕŒÆ0HİRMAJORZ
+CODE_SMELL

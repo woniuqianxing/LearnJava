@@ -1,0 +1,24 @@
+
+Ysquid:S1148"#Use a logger to log this exception.(ĞÌ£8›ÙôŠÅ0H¼RMINORZVULNERABILITY
+bsquid:S1143"5Remove this return statement from this finally block.(ƒÕÈË8›ÙôŠÅ0H½RMAJORZBUG
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÇÓ8›ÙôŠÅ0H¾RMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶éäÛ8›ÙôŠÅ0H¿RMAJORZ
+CODE_SMELL
+q
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8›ÙôŠÅ0HÀRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰‰ì‘8›ÙôŠÅ0HÁRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ïú¿¥8›ÙôŠÅ0HÂRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ë©ÅÜ8›ÙôŠÅ0HÃRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÄRINFOZ
+CODE_SMELL

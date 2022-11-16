@@ -1,0 +1,19 @@
+
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(½¦ì…øÿÿÿÿ8äàÒ´Å0HŸ
+RMAJORZ
+CODE_SMELL
+rsquid:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(©ª€Èøÿÿÿÿ8öÍ©µÅ0HŸ
+RMINORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ†²8öÍ©µÅ0H
+RMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH 
+RINFOZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(é–Õ·8òºÜ´Å0H¡
+RMAJORZ
+CODE_SMELL

@@ -1,0 +1,14 @@
+package com.imooc.pt;
+
+public class ListSample {
+	
+	public void sample1() {
+		ArrayList bookList = new ArrayList();
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

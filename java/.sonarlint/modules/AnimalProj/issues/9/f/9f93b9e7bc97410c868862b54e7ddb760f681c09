@@ -1,27 +1,27 @@
 
+lsquid:UnusedPrivateMethod"*Remove this unused private "sleep" method.(ü˜Ñú8¸¯éÚÃ0H”RMAJORZ
+CODE_SMELL
 l
-squid:S1065"9Replace this use of System.out or System.err by a logger.(¦µº˜8˜ä±ÛÃ0H’RMAJORZ
+squid:S1065"9Replace this use of System.out or System.err by a logger.(¦µº˜8˜ä±ÛÃ0H•RMAJORZ
+CODE_SMELL
+_squid:S1172"+Remove this unused method parameter "name".(ü˜Ñú8¸¯éÚÃ0H–RMAJORZ
+CODE_SMELL
+dsquid:S2160"+Override the "equals" method in this class.(ÓÄ‘üÿÿÿÿ8á‚ØãÃ0H—RMINORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(—ƒâéüÿÿÿÿ8¶ûõÚÃ0H˜RMAJORZ
+CODE_SMELL
+q
+squid:S106+"9Replace this use of System.out or System.err by a logger.(üó¿¡ûÿÿÿÿ8˜ÿÚÃ0H™RMAJORZ
+CODE_SMELL
+½squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¿ëÒúÿÿÿÿ8úö¥ÚÃ0HšRCRITICALZ
+CODE_SMELL
+„squid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(şÈÖ–ÿÿÿÿÿ8¶ûõÚÃ0H›RMAJORZ
 CODE_SMELL
 k
-squid:S106"9Replace this use of System.out or System.err by a logger.(™©ÎY8úö¥ÚÃ0HìRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(™©ÎY8úö¥ÚÃ0HœRMAJORZ
 CODE_SMELL
 q
-squid:S1060"9Replace this use of System.out or System.err by a logger.(„Œ§âıÿÿÿÿ8İîÛÃ0HRMAJORZ
+squid:S1060"9Replace this use of System.out or System.err by a logger.(„Œ§âıÿÿÿÿ8İîÛÃ0HRMAJORZ
 CODE_SMELL
-„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(—ƒâéüÿÿÿÿ8¶ûõÚÃ0HRMAJORZ
-CODE_SMELL
-rsquid:S3400"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ8¸¯éÚÃ0HûRMINORZ
-CODE_SMELL
-_squid:S1172"+Remove this unused method parameter "name".(ü˜Ñú8¸¯éÚÃ0HüRMAJORZ
-CODE_SMELL
-lsquid:UnusedPrivateMethod"*Remove this unused private "sleep" method.(ü˜Ñú8¸¯éÚÃ0HúRMAJORZ
-CODE_SMELL
-½squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹¿ëÒúÿÿÿÿ8úö¥ÚÃ0HíRCRITICALZ
-CODE_SMELL
-q
-squid:S106+"9Replace this use of System.out or System.err by a logger.(üó¿¡ûÿÿÿÿ8˜ÿÚÃ0H…RMAJORZ
-CODE_SMELL
-„squid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(şÈÖ–ÿÿÿÿÿ8¶ûõÚÃ0H‚RMAJORZ
-CODE_SMELL
-dsquid:S2160"+Override the "equals" method in this class.(ÓÄ‘üÿÿÿÿ8á‚ØãÃ0HÖRMINORZ
+rsquid:S3400"9Remove this method and declare a constant for this value.(Ö§”Óşÿÿÿÿ8¸¯éÚÃ0HRMINORZ
 CODE_SMELL

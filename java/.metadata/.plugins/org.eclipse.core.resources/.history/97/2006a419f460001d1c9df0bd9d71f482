@@ -1,0 +1,10 @@
+package com.imooc.collection.map;
+
+public class HashMapSample {
+
+	public static void main(String[] args) {
+		HashMap<String,Object> student = new HashMap();
+
+	}
+
+}

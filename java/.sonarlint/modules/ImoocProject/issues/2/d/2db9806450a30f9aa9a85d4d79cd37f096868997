@@ -1,0 +1,24 @@
+
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(–àÉ¦8Ø‚ÚÅ0Hİ
+RMAJORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(Õñó8‚Í‚ÚÅ0Há
+RMAJORZ
+CODE_SMELL
+Ysquid:S2129
+" Remove this "String" constructor(ê˜—®úÿÿÿÿ8Ø‚ÚÅ0Hà
+RMAJORZ
+CODE_SMELL
+}squid:S1192"FDefine a constant instead of duplicating this literal "imooc" 3 times.(¨¯½½8Ø‚ÚÅ0HÜ
+RCRITICALZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(®—–Ÿşÿÿÿÿ8ñ˜ˆÚÅ0Hâ
+RMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ìû†‚ÿÿÿÿÿ8ñ˜ˆÚÅ0Hã
+RMAJORZ
+CODE_SMELL

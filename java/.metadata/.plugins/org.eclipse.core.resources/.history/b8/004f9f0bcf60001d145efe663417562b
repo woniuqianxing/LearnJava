@@ -1,0 +1,13 @@
+package com.imooc.collection.set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetSample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> mobileSet = new HashSet<String>();
+	}
+
+}
