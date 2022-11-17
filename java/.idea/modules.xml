@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnimalProj.iml" filepath="$PROJECT_DIR$/AnimalProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectionProj.iml" filepath="$PROJECT_DIR$/CollectionProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionProj.iml" filepath="$PROJECT_DIR$/ExceptionProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImoocProject.iml" filepath="$PROJECT_DIR$/ImoocProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectProj.iml" filepath="$PROJECT_DIR$/ObjectProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Parameterized-type.iml" filepath="$PROJECT_DIR$/Parameterized-type.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PolyProj.iml" filepath="$PROJECT_DIR$/PolyProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SchoolProj.iml" filepath="$PROJECT_DIR$/SchoolProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingletonProj.iml" filepath="$PROJECT_DIR$/SingletonProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WrappProj.iml" filepath="$PROJECT_DIR$/WrappProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
+    </modules>
+  </component>
+</project>
