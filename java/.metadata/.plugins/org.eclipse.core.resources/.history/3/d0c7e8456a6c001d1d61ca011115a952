@@ -1,0 +1,11 @@
+package com.imooc.jdk9;
+
+public class Sample01Tmp1 implements Sample01 {
+
+	@Override
+	public String getIp() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

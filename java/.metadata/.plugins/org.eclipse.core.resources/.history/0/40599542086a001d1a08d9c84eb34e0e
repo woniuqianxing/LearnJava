@@ -1,0 +1,35 @@
+package com.imooc.io;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+
+public class FileCopySample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 涉及到文件操作，首先要获取File对象
+		File source = new File("d:/demo.txt");
+		//放到外面的原因是，"流"有开才有关
+		InputStream fis=null;
+		try {
+			fis = new FileInputStream(source);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			//通过finally快确保fis对象执行close方法
+			if (fis != null) {
+				try {
+					fis.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,47 @@
+
+Xsquid:S21855"&Remove this silly call to "Math.floor"( ü™ÁúÿÿÿÿH†RMAJORZ
+CODE_SMELL
+msquid:S21845"BCast one of the operands of this division operation to a "double".( ü™ÁúÿÿÿÿH‡RMINORZBUG
+|squid:S3027!"JPut single-quotes around '/' to use the faster "lastIndexOf(char)" method.(İ¨ÄæúÿÿÿÿHˆRMAJORZ
+CODE_SMELL
+Ssquid:S1075#"&Remove this hard-coded path-delimiter.(éäÂH‰RMINORZ
+CODE_SMELL
+_squid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿHŠRCRITICALZ
+CODE_SMELL
+_squid:S2093W"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿH‹RCRITICALZ
+CODE_SMELL
+`squid:S2093‹"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿHŒRCRITICALZ
+CODE_SMELL
+ysquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(è¦ë¿HRMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine­"<This block of commented-out lines of code should be removed.(¾ˆíºûÿÿÿÿHRMAJORZ
+CODE_SMELL
+j
+squid:S1064"9Replace this use of System.out or System.err by a logger.(°›¥ûÿÿÿÿHRMAJORZ
+CODE_SMELL
+j
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(ÅßÚ¿øÿÿÿÿHRMAJORZ
+CODE_SMELL
+j
+squid:S106]"9Replace this use of System.out or System.err by a logger.(×‘èæÿÿÿÿÿH‘RMAJORZ
+CODE_SMELL
+vsquid:HiddenFieldCheck‘"=Rename "threadNum" which hides the field declared at line 20.(–ú®H’RMAJORZ
+CODE_SMELL
+csquid:S1135m"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH“RINFOZ
+CODE_SMELL
+csquid:S1135y"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH”RINFOZ
+CODE_SMELL
+dsquid:S1135š"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH•RINFOZ
+CODE_SMELL
+dsquid:S1135¢"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH–RINFOZ
+CODE_SMELL
+Zsquid:S1604c"(Make this anonymous inner class a lambda(Ô™ˆîÿÿÿÿÿH—RMAJORZ
+CODE_SMELL
+Xsquid:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH˜RMINORZVULNERABILITY
+Xsquid:S1148A"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH™RMINORZVULNERABILITY
+Xsquid:S1148n"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHšRMINORZVULNERABILITY
+Xsquid:S1148z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH›RMINORZVULNERABILITY
+Ysquid:S1148›"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHœRMINORZVULNERABILITY
+Ysquid:S1148£"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHRMINORZVULNERABILITY
+q
+squid:S899%"BDo something with the "boolean" value returned by "createNewFile".(ŞÿæHRMINORZVULNERABILITY

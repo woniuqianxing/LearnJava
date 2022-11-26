@@ -1,0 +1,26 @@
+
+usquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ûÔÙ±8ÔĞèÉ0HüRMINORZ
+CODE_SMELL
+fsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8Š…¤èÉ0H†RCRITICALZ
+CODE_SMELL
+_squid:S1148)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ü–ºèÉ0H—RMINORZVULNERABILITY
+_squid:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š…¤èÉ0H‰RMINORZVULNERABILITY
+nsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ü–ºèÉ0H•RMAJORZ
+CODE_SMELL
+jsquid:S1135$"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8Š…¤èÉ0HˆRINFOZ
+CODE_SMELL
+l
+squid:S106 "9Replace this use of System.out or System.err by a logger.(§›´‘8ùó¶èÉ0H”RMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHøRINFOZ
+CODE_SMELL
+jsquid:S1135("2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8Š…¤èÉ0H‡RINFOZ
+CODE_SMELL
+_squid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Š…¤èÉ0HŠRMINORZVULNERABILITY
+jsquid:S1135/"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ü–ºèÉ0H–RINFOZ
+CODE_SMELL
+zsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Ò…¶Ùıÿÿÿÿ8ª”²éÉ0HªRMINORZ
+CODE_SMELL
+jsquid:S11358"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ª”²éÉ0H«RINFOZ
+CODE_SMELL
+_squid:S11489"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ª”²éÉ0H¬RMINORZVULNERABILITY

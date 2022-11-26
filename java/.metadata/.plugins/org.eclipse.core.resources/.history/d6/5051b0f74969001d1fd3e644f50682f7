@@ -1,0 +1,93 @@
+package com.imooc.thread;
+
+public class SyncSample {
+	// 内部类，用来输出4个文字
+	class Printer {
+		// 锁对象
+		Object lock = new Object();
+
+		// synchronized代码块演示
+		public void print1() {
+			synchronized (lock) {
+				// 实现动画效果
+				try {
+					Thread.sleep(500);
+					System.out.print("魑");
+					Thread.sleep(500);
+					System.out.print("魅");
+					Thread.sleep(500);
+					System.out.print("魍");
+					Thread.sleep(500);
+					System.out.print("魉");
+					System.out.println();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		}
+
+		public synchronized void print2() {
+			// 实现动画效果
+			try {
+				Thread.sleep(500);
+				System.out.print("魑");
+				Thread.sleep(500);
+				System.out.print("魅");
+				Thread.sleep(500);
+				System.out.print("魍");
+				Thread.sleep(500);
+				System.out.print("魉");
+				System.out.println();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+
+		public static synchronized void print3() {
+			// 实现动画效果
+			try {
+				//当前类的class对象，字节码对象，谁拥有字节码对象，谁可以执行
+				Printer.class；
+				Thread.sleep(500);
+				System.out.print("魑");
+				Thread.sleep(500);
+				System.out.print("魅");
+				Thread.sleep(500);
+				System.out.print("魍");
+				Thread.sleep(500);
+				System.out.print("魉");
+				System.out.println();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	class PrintTask implements Runnable {
+		// 定义一个类的成员变量
+		public Printer printer;
+
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			printer.print2();
+		}
+
+	}
+
+	public void start() {
+		Printer printer = new Printer();
+		for (int i = 0; i < 10; i++) {
+			PrintTask task = new PrintTask();
+			task.printer = printer;
+			Thread thread = new Thread(task);
+			thread.start();
+		}
+		printer.print2();
+	}
+
+	public static void main(String[] args) {
+		SyncSample syncSample = new SyncSample();
+		syncSample.start();
+	}
+}

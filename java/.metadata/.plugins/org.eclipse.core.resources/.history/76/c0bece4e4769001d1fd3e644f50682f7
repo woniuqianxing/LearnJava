@@ -1,0 +1,55 @@
+package com.imooc.thread;
+
+public class SyncSample {
+	// 内部类，用来输出4个文字
+	class Printer {
+		Object lock = new Object();
+
+		public void print() {
+			synchronized (lock) {
+				// 实现动画效果
+				try {
+					Thread.sleep(500);
+					System.out.print("魑");
+					Thread.sleep(500);
+					System.out.print("魅");
+					Thread.sleep(500);
+					System.out.print("魍");
+					Thread.sleep(500);
+					System.out.print("魉");
+					System.out.println();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+
+	class PrintTask implements Runnable {
+		// 定义一个类的成员变量
+		public Printer printer;
+
+		@Override
+		public void run() {
+			// TODO Auto-generated method stub
+			printer.print();
+		}
+
+	}
+
+	public void start() {
+		Printer printer = new Printer();
+		for (int i = 0; i < 10; i++) {
+			PrintTask task = new PrintTask();
+			task.printer = printer;
+			Thread thread = new Thread(task);
+			thread.start();
+		}
+		printer.print();
+	}
+
+	public static void main(String[] args) {
+		SyncSample syncSample = new SyncSample();
+		syncSample.start();
+	}
+}

@@ -1,0 +1,18 @@
+
+_squid:S1148"#Use a logger to log this exception.(А╔╘Е¤    8шь╪є╔0H▌RMINORZVULNERABILITY
+jsquid:S1135%"2Complete the task associated to this TODO comment.(╒╠Ро■    8шь╪є╔0H█RINFOZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(зЫ┤С8шь╪є╔0H┘RMAJORZ
+CODE_SMELL
+xsquid:S2147"DCombine this catch with the one at line 27, which has the same body.(янг─8шь╪є╔0H▄RMINORZ
+CODE_SMELL
+jsquid:S1135"2Complete the task associated to this TODO comment.(╒╠Ро■    8шь╪є╔0H┌RINFOZ
+CODE_SMELL
+_squid:S1148&"#Use a logger to log this exception.(А╔╘Е¤    8шь╪є╔0H▀RMINORZVULNERABILITY
+_squid:S1148"#Use a logger to log this exception.(А╔╘Е¤    8шь╪є╔0H▐RMINORZVULNERABILITY
+fsquid:S2093"*Change this "try" to a try-with-resources.(б╗в№∙    8йЕ▒Ў╔0HуRCRITICALZ
+CODE_SMELL
+jsquid:S1135-"2Complete the task associated to this TODO comment.(╒╠Ро■    8йЕ▒Ў╔0HфRINFOZ
+CODE_SMELL
+_squid:S1148."#Use a logger to log this exception.(А╔╘Е¤    8йЕ▒Ў╔0HхRMINORZVULNERABILITY

@@ -1,0 +1,38 @@
+
+nsquid:S1075
+"ARefactor your code to get this URI from a customizable parameter.(æ³µ‘HéRMINORZ
+CODE_SMELL
+ssquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ñ‹»óûÿÿÿÿHêRMINORZ
+CODE_SMELL
+vsquid:S4042"IUse "java.nio.Files#delete" here for better messages on error conditions.(ÀıÎ²HëRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(èÔÃŸûÿÿÿÿHìRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(»ÕÓèúÿÿÿÿHíRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬şğÉüÿÿÿÿHîRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(©ÌÍæûÿÿÿÿHïRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(Á•ºÍHğRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶¬œØHñRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(äì¤îHòRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(»ÕÓèúÿÿÿÿHóRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö•˜ıÿÿÿÿHôRMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHõRINFOZ
+CODE_SMELL
+Xsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHöRMINORZVULNERABILITY

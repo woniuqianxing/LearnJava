@@ -1,0 +1,10 @@
+package com.imooc.io;
+
+public class FileSample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

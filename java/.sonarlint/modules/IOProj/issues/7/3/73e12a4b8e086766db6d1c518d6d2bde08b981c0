@@ -1,0 +1,60 @@
+
+fsquid:S2093E"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8œğÑêÉ0HËRCRITICALZ
+CODE_SMELL
+esquid:S1135"2Complete the task associated to this TODO comment.(‡ñÅ¼8ü…ˆêÉ0HµRINFOZ
+CODE_SMELL
+jsquid:S1135w"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8‰ ¾òÉ0HÈRINFOZ
+CODE_SMELL
+_squid:S1148_"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ü…ˆêÉ0H·RMINORZVULNERABILITY
+jsquid:S1135 "2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ì¸œêÉ0H½RINFOZ
+CODE_SMELL
+jsquid:S1135V"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8›ÅğïÉ0HÿRINFOZ
+CODE_SMELL
+fsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ì¸œêÉ0H¼RCRITICALZ
+CODE_SMELL
+jsquid:S1135^"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8›ÅğïÉ0H€RINFOZ
+CODE_SMELL
+zsquid:S1075F"ARefactor your code to get this URI from a customizable parameter.(Óè¨äıÿÿÿÿ8œğÑêÉ0HÊRMINORZ
+CODE_SMELL
+ˆsquid:S1192"LDefine a constant instead of duplicating this literal "d:/test.txt" 3 times.(Óè¨äıÿÿÿÿ8›ÅğïÉ0HüRCRITICALZ
+CODE_SMELL
+jsquid:S1135:"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8œğÑêÉ0HÎRINFOZ
+CODE_SMELL
+_squid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8›ÅğïÉ0HRMINORZVULNERABILITY
+˜squid:S1149I"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ8ššğÉ0HšRMAJORZ
+CODE_SMELL
+zsquid:S1075+"ARefactor your code to get this URI from a customizable parameter.(Óè¨äıÿÿÿÿ8›ÅğïÉ0HûRMINORZ
+CODE_SMELL
+_squid:S1148q"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8æ¡âñÉ0H»RMINORZVULNERABILITY
+dsquid:S1135€"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH®RINFOZ
+CODE_SMELL
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8œğÑêÉ0HÏRMINORZVULNERABILITY
+_squid:S1148!"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8›ÅğïÉ0H‚RMINORZVULNERABILITY
+fsquid:S2093*"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8›ÅğïÉ0HıRCRITICALZ
+CODE_SMELL
+}
+squid:S899-"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8ü…ˆêÉ0H¸RMINORZVULNERABILITY
+_squid:S1148x"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‰ ¾òÉ0HÉRMINORZVULNERABILITY
+_squid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ì¸œêÉ0H¾RMINORZVULNERABILITY
+zsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(Óè¨äıÿÿÿÿ8ü…ˆêÉ0H´RMINORZ
+CODE_SMELL
+wsquid:S2095j"HUse try-with-resources or close this "FileReader" in a "finally" clause.(îÓú¬8‰ ¾òÉ0HÆRBLOCKERZBUG
+€squid:CommentedOutCodeLine‚"<This block of commented-out lines of code should be removed.(À½¨£8€âÔêÉ0HÛRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿š—¸ûÿÿÿÿ8›ÅğïÉ0HşRMAJORZ
+CODE_SMELL
+tsquid:S1075i"ARefactor your code to get this URI from a customizable parameter.(£â›y8‰ ¾òÉ0HÄRMINORZ
+CODE_SMELL
+esquid:S11353"2Complete the task associated to this TODO comment.(‡ñÅ¼8œğÑêÉ0HÍRINFOZ
+CODE_SMELL
+l
+squid:S106N"9Replace this use of System.out or System.err by a logger.(üÚÆ‹8œğÑêÉ0HÌRMAJORZ
+CODE_SMELL
+_squid:S1148;"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8›ÅğïÉ0HƒRMINORZVULNERABILITY
+fsquid:S2093h"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8‰ ¾òÉ0HÅRCRITICALZ
+CODE_SMELL
+q
+squid:S106n"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ8‰ ¾òÉ0HÇRMAJORZ
+CODE_SMELL
+_squid:S1148W"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8œğÑêÉ0HĞRMINORZVULNERABILITY

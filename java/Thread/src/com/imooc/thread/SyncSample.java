@@ -1,0 +1,4 @@
+package com.imooc.thread;
+
+public class SyncSample {
+}

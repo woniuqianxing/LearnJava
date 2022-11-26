@@ -1,0 +1,13 @@
+package com.imooc.thread;
+
+public class SyncSample {
+	// 内部类，用来输出4个文字
+	class Printer {
+		public void print() {
+			System.out.print("魑");
+			System.out.print("魅");
+			System.out.print("魍");
+			System.out.print("魉");
+		}
+	}
+}

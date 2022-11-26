@@ -1,0 +1,16 @@
+package com.imooc.io;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class FileCopySample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 涉及到文件操作，首先要获取File对象
+		File source = new File("d:/demo.txt");
+		InputStream fis = new FileInputStream(source);
+	}
+
+}

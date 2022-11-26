@@ -1,0 +1,24 @@
+package com.imooc.io;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class URLConnectionSample {
+
+	public static void main(String[] args) {
+		try {
+			URL url = new URL("https://www.baidu.com/weixin.jpg");
+			URLConnection connection=url.openConnection();
+			connection.getInput
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+
+	}
+
+}

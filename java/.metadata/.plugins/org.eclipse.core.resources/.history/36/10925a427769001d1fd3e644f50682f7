@@ -1,0 +1,13 @@
+package com.imooc.io;
+
+import java.io.File;
+
+public class FileSample {
+
+	public static void main(String[] args) {
+		//
+		File f = new File("d:/b.txt");
+		boolean r1 = f.createNewFile();
+	}
+
+}
