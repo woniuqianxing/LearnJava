@@ -307,4 +307,37 @@ Map映射体系及应用
 -<T>与<E>的区别：1.标识符的字母本身并无强制要求，常见写法有两种：<T>是Type单词的首字母，说明传入的是类型；<E>是Element元素的首字母，代表的是集合中的元素。
 泛型方法的应用：
 
+泛型通配符
+使用泛型后的类型匹配问题
+方法定义：public void doSth(List<Shape>shapeList)
+//调用时使用Shape的子类Circle就会报错
+List<Circle> circleList = new ArrayList<>;
+obj.doSth(circleList);
+
+<?>通配符与匹配范围
+<?>代表所有类型均可传入，如下所示
+方法定义：public void doSth(List<?>shapeList)
+//调用时使用Shape的子类Circle不再报错
+List<Circle> circleList = new ArrayList<>;
+obj.doSth(circleList);
+通过extends与super限定范围
+extends关键字代表必须传入Shape或者子类才通过检查
+//方法定义：
+public void doSth(List<?extends Shape>shapeList)
+super关键字代表必须传入Rectangle或者父类才能通过检查
+//方法定义：
+public void doSth(List<?super Rectangle>shapeList)
+
+多线程
+多线程的安全与应用
+当一个程序执行进入内存运行时，即变成一个进程
+进程的资源是彼此隔离的，其他进程不允许访问
+
+线程是进程内执行的"任务"
+线程是进程内一个"基本任务",每个线程都有自己的功能是CPU分配与调度的基本单位
+一个进程内可以包含多个线程，反之一个线程只能隶属于某一个进程
+进程内至少拥有一个"线程",这个线程叫"主线程"，主线程消亡则进程结束
+
+
+
 应用Collections实现集合排序
