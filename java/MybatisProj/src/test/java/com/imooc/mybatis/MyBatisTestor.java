@@ -217,4 +217,29 @@ public class MyBatisTestor {
         }
     }
 
+    @Test
+    public void testLevelCache() throws Exception{
+        SqlSession session=null;
+        try{
+            session=MyBatisUtils.openSession();
+            Goods goods=session.selectOne("goods.selectById",1603);
+            System.out.println(goods.hashCode());
+        }catch (Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+        try{
+            session=MyBatisUtils.openSession();
+            Goods goods=session.selectOne("goods.selectById",1603);
+//            session.commit();//commit提交时对该namespace缓存强制清空
+//            Goods goods1=session.selectOne("goods.selectById",1603);
+            System.out.println(goods.hashCode()/**+":"+goods1.hashCode()**/);
+        }catch (Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+
 }
