@@ -1,5 +1,6 @@
 package com.imooc.mybatis;
 
+import com.imooc.mybatis.dto.GoodsDTO;
 import com.imooc.mybatis.entity.Goods;
 import com.imooc.mybatis.utils.MyBatisUtils;
 import org.apache.ibatis.io.Resources;
@@ -11,7 +12,9 @@ import org.junit.Test;
 import java.io.IOException;
 import java.io.Reader;
 import java.sql.Connection;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -71,6 +74,79 @@ public class MyBatisTestor {
         }finally {
             MyBatisUtils.closeSession(session);
 
+        }
+    }
+    @Test
+    public void testSelectById(){
+        SqlSession session=null;
+        try{
+            session=MyBatisUtils.openSession();
+            Goods goods=session.selectOne("goods.selectById",1602);
+            System.out.println(goods.getTitle());
+        }catch(Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+    @Test
+    public void testSelectByPriceRange(){
+        SqlSession session=null;
+        try{
+            session=MyBatisUtils.openSession();
+            Map param= new HashMap();
+            param.put("min",100);
+            param.put("max",500);
+            param.put("limit",10);
+            List<Goods> list=session.selectList("selectByPriceRange",param);
+            for (Goods g:list){
+                System.out.println(g.getTitle()+":"+g.getCurrentPrice());
+            }
+        }catch (Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+
+    @Test
+    public void testSelectGoodsDTO(){
+        SqlSession session=null;
+        try{
+            session=MyBatisUtils.openSession();
+            List<GoodsDTO> list=session.selectList("goods.selectGoodsDTO");
+            for (GoodsDTO g:list){
+                System.out.println(g.getGoods().getTitle());
+            }
+        }catch (Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+    @Test
+    public void testInsert() throws Exception{
+        SqlSession session = null;
+        try {
+            session = MyBatisUtils.openSession();
+            Goods goods=new Goods();
+            goods.setTitle("测试商品");
+            goods.setSubTitle("测试子标题");
+            goods.setOriginalCost(200f);
+            goods.setCurrentPrice(100f);
+            goods.setDiscount(0.5f);
+            goods.setIsFreeDelivery(1);
+            goods.setCategoryId(43);
+            //insert()方法返回值代表本次成功插入的记录总数
+            int num=session.insert("goods.insert",goods);
+            session.commit();//提交事务数据
+            System.out.println(goods.getGoodsId());
+        }catch (Exception e){
+            if (session!=null){
+                session.rollback();//回滚事务
+            }
+        }finally {
+            MyBatisUtils.closeSession(session);
         }
     }
 }
