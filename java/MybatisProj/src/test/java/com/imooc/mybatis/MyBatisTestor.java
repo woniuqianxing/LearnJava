@@ -149,4 +149,52 @@ public class MyBatisTestor {
             MyBatisUtils.closeSession(session);
         }
     }
+
+    @Test
+    public void testUpdate() throws Exception{
+        SqlSession session=null;
+        try{
+            session=MyBatisUtils.openSession();
+            Goods goods=session.selectOne("goods.selectById",739);
+            goods.setTitle("更新测试商品");
+            int sum=session.update("goods.update",goods);
+            session.commit();
+        }catch (Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+    @Test
+    public void testDelete() throws Exception{
+        SqlSession session=null;
+        try{
+            session=MyBatisUtils.openSession();
+            int sum=session.delete("goods.delete",739);
+            System.out.println(sum);
+            session.commit();
+        }catch (Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+    @Test
+    public void testSelectByTitle() throws Exception{
+        SqlSession session=null;
+        try{
+            session=MyBatisUtils.openSession();
+            Map param=new HashMap();
+            param.put("title","''or 1=1 or title='【德国】爱他美婴幼儿配方奶粉1段800g*2罐 铂金版'");
+            List<Goods> list= session.selectList("goods.selectByTitle",param);
+            for (Goods g:list){
+                System.out.println(g.getTitle()+":"+g.getCurrentPrice());
+            }
+        }catch (Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+
 }
