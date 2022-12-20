@@ -1,7 +1,10 @@
 package com.imooc.mybatis;
 
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import com.imooc.mybatis.dto.GoodsDTO;
 import com.imooc.mybatis.entity.Goods;
+import com.imooc.mybatis.entity.GoodsDetail;
 import com.imooc.mybatis.utils.MyBatisUtils;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -235,6 +238,55 @@ public class MyBatisTestor {
 //            session.commit();//commit提交时对该namespace缓存强制清空
 //            Goods goods1=session.selectOne("goods.selectById",1603);
             System.out.println(goods.hashCode()/**+":"+goods1.hashCode()**/);
+        }catch (Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+
+    /**
+     * 测试多对一对象关联映射
+     * @throws Exception
+     */
+    @Test
+    public void testManyToOne() throws Exception{
+        SqlSession session=null;
+        try {
+            session = MyBatisUtils.openSession();
+            List<GoodsDetail> list = session.selectList("goodsDetail.selectManyToOne");
+            for (GoodsDetail gd:list){
+                System.out.println(gd.getGdPicUrl()+":"+gd.getGoods().getTitle());
+            }
+        }catch (Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+
+    /**
+     * 分页查询
+     * @throws Exception
+     */
+    @Test
+    public void testSelectPage() throws Exception{
+        SqlSession session=null;
+        try {
+            session = MyBatisUtils.openSession();
+            /*startPage方法会自动将下一次查询进行分页*/
+            PageHelper.startPage(2,10);
+            Page<Goods> page=(Page)session.selectList("goods.selectPage");
+            System.out.println("总页数"+page.getPages());
+            System.out.println("总记录数"+page.getTotal());
+            System.out.println("开始行号"+page.getStartRow());
+            System.out.println("结束行号"+page.getEndRow());
+            System.out.println("当前页码"+page.getPageNum());
+            List<Goods> data= page.getResult();//当前页数据
+            for (Goods g:data){
+                System.out.println(g.getTitle());
+            }
+            System.out.println("");
         }catch (Exception e){
             throw e;
         }finally {

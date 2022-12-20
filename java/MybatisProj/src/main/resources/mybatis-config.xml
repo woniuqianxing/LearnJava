@@ -7,6 +7,15 @@
         <!--goods_id==>goodsId驼峰命名转换-->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
+
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--设置数据库类型-->
+            <property name="helperDialect" value="mysql"/>
+            <!--分页合理化-->
+            <property name="reasonable" value="true"/>
+        </plugin>
+    </plugins>
     <!--设置默认指向的数据库-->
     <environments default="dev">
         <!--配置环境，不同的环境，不同的ID名字-->
