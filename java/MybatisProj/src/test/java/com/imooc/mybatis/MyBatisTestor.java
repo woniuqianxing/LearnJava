@@ -15,9 +15,7 @@ import org.junit.Test;
 import java.io.IOException;
 import java.io.Reader;
 import java.sql.Connection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 /**
@@ -288,6 +286,71 @@ public class MyBatisTestor {
             }
             System.out.println("");
         }catch (Exception e){
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+
+    /**
+     * 批量插入测试
+     * @throws Exception
+     */
+    @Test
+    public void testBatchInsert() throws Exception{
+        SqlSession session=null;
+        try {
+            long st=new Date().getTime();
+            session = MyBatisUtils.openSession();
+            List list = new ArrayList();
+            for (int i = 0;i<10000;i++){
+                Goods goods = new Goods();
+                goods.setTitle("测试商品");
+                goods.setSubTitle("测试子标题");
+                goods.setOriginalCost(200f);
+                goods.setCurrentPrice(100f);
+                goods.setDiscount(0.5f);
+                goods.setIsFreeDelivery(1);
+                goods.setCategoryId(43);
+                //insert()方法返回值代表本次成功插入的记录总数
+                list.add(goods);
+
+                session.insert("goods.batchInsert",list);
+                session.commit();//提交事务数据
+                long et = new Date().getTime();
+                System.out.println("执行时间："+(et-st)+"毫秒");
+            }
+            System.out.println("");
+        }catch (Exception e){
+            if (session!=null){
+                session.rollback();//回滚事务
+            }
+            throw e;
+        }finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
+
+    @Test
+    public void testBatchDelete() throws Exception{
+        SqlSession session=null;
+        try {
+            long st=new Date().getTime();
+            session = MyBatisUtils.openSession();
+            List list = new ArrayList();
+            list.add(1920);
+            list.add(1921);
+            list.add(1922);
+            session.delete("goods.batchDelete",list);
+            session.commit();//提交事务数据
+            long et = new Date().getTime();
+            System.out.println("执行时间："+(et-st)+"毫秒");
+
+            System.out.println("");
+        }catch (Exception e){
+            if (session!=null){
+                session.rollback();//回滚事务
+            }
             throw e;
         }finally {
             MyBatisUtils.closeSession(session);
