@@ -20,4 +20,12 @@
         <constructor-arg index="2" value="欧洲"/>
         <constructor-arg index="3" value="19.8"/>
     </bean>
+
+    <!--利用静态工厂获取对象-->
+    <bean id="apple4" class="com.imooc.spring.ioc.factory.AppleStaticFactory"
+          factory-method="createSweetApple"/>
+    <!--    利用工厂实例方法获取对象-->
+    <bean id="factoryInstance" class="com.imooc.spring.ioc.factory.AppleFactoryInstance"/>
+    <bean id="apple5" factory-bean="factoryInstance" factory-method="createSweetApple"/>
+
 </beans>
