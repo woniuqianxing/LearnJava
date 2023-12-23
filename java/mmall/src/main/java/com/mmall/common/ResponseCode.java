@@ -3,7 +3,7 @@ package com.mmall.common;
 public enum ResponseCode {
     SUCCESS(0,"SUCCESS"),
     ERROR(1,"ERROR"),
-    MEED_LOGIN(10,"MEED_LOGIN"),
+    NEED_LOGIN(10,"NEED_LOGIN"),
     ILLEGAL_ARGUMENT(2,"ILLEGAL_ARGUMENT");
 
     //声明两个属性
