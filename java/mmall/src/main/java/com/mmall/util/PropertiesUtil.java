@@ -8,8 +8,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Properties;
 
-public class PropertiesUil {
-    private static Logger logger= LoggerFactory.getLogger(PropertiesUil.class);
+public class PropertiesUtil {
+    private static Logger logger= LoggerFactory.getLogger(PropertiesUtil.class);
     private static Properties props;
 
 //    public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class PropertiesUil {
         String fileName="mmall.properties";
         props=new Properties();
         try {
-            props.load(new InputStreamReader(PropertiesUil.class.getClassLoader().getResourceAsStream(fileName),"UTF-8"));
+            props.load(new InputStreamReader(PropertiesUtil.class.getClassLoader().getResourceAsStream(fileName),"UTF-8"));
         } catch (IOException e) {
             logger.error("配置文件读取异常",e);
         }
@@ -30,7 +30,7 @@ public class PropertiesUil {
 //
 //    }
 //    构造代码块
-//    public PropertiesUil(){
+//    public PropertiesUtil(){
 //
 //    }
     public static String getProperty(String key){
